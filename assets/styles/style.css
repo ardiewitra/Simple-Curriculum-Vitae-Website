@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    background: rgb(131,58,180);
+    background: linear-gradient(
+        90deg, 
+        rgba(131,58,180,1)0%,
+        rgba(253,29,29,1)50%,
+        rgba(252,176,69,1)100%
+        );
+    padding: 20px;
+}
+
+.header-container {
+    display: flex;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.content-holder {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.image-profile-holder {
+    flex: 1;
+    text-align: right;
+}
+
+.image-profile {
+    width: 160px;
+    height: 160px;
+    border: 5px solid white;
+    border-radius: 100%;
+    box-shadow: 10px 10px 20px 2px black;
+    margin-right: 40px;
+    transition: all;
+    transition: 0.5s;
+}
+
+.image-profile:hover {
+    transform: scale(1.1);
+}
+
+.detail-profile-holder {
+    flex: 2;
+}
+
+.name-profile {
+    font-size: 36px;
+    color: white;
+    font-weight: 600;
+}
+
+.title-profile {
+    font-size: 24px;
+    color: white;
+    font-weight: 200;
+}
+
+.button {
+    border: none;
+    padding: 10px 15px;
+    margin: 20px 10px 0 0;
+    font-family: "Roboto", sans-serif;
+    border-radius: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    background-color: #000000;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+.bar-container {
+    width: 100%;
+    height: 20px;
+    border-radius: 20px;
+    background-color: rgb(235,233,233);
+    position: relative;
+}
+
+.bar-filling {
+    position: absolute;
+    height: 20px;
+    border-radius: 20px;
+    transition: all;
+    transition-duration: 0.5s;
+}
+
+.green {
+    background-color: rgb(30,195,181);
+    width: 90%;
+}
+
+.orange {
+    background-color: rgb(245,173,113);
+    width: 70%;
+}
+
+.blue {
+    background-color: rgb(95, 123, 234);
+    width: 80%;
+}
+
+.purple {
+    background-color: rgb(245,113,225);
+    width: 80%;
+}
+
+.subcontent {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(53, 53, 53);
+}
+
+h3 {
+    font-weight: 600;
+}
+
+.skillbar {
+    display: block;
+    margin: 10px 0;
+}
+
+ul.work-ex li {
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+ul.work-ex li:first-child {
+    padding-top: 0;
+}
+
+span strong {
+    color: #1eb574;
+}
+
+.sub-work-ex {
+    font-size: 16px;
+    color: rgb(66, 66, 66);
+    font-weight: 400;
+}
+
+footer {
+    background: rgb(131,58,180);
+    background: linear-gradient(
+        90deg, 
+        rgba(131,58,180,1)0%,
+        rgba(253,29,29,1)50%,
+        rgba(252,176,69,1)100%
+        );
+}
+
+.footer-holder {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.footer-name {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
